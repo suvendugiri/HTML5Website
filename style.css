@@ -24,7 +24,7 @@ http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.ht
   -webkit-padding-end: 20px;
   -webkit-padding-start: 2px;
   -webkit-user-select: none;
-  background-image: url(images/select-arrow.png), 
+  background-image: url(images/select-arrow.png),
     -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
   background-position: center right;
   background-repeat: no-repeat;
@@ -42,3 +42,79 @@ http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.ht
   }
 .form input.buttom{ background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
 .form input.buttom:hover	{ background-color: #2a78f6; }
+
+
+
+html,body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.50;
+    color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343434;
+    line-height: 1.2;
+}
+
+.space-top {
+    padding-top: 20px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+dt, dd {
+    line-height: 2;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.comment-avatar {
+    margin-top: 5px;
+    width: 55px;
+    float: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.comment-content {
+    margin-left: 75px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 40px;
+}
+
+.comment h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.comment-meta {
+    margin-bottom: 15px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.text-default {
+    color: #e84c3d;
+}
+
+.comment .btn {
+    font-size: 12px;
+    padding: 7px;
+    min-width: 100px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+
